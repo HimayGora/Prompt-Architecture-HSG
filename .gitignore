@@ -1,0 +1,29 @@
+# Python environment
+venv_gemini/
+venv_gemini_new/
+.env
+
+# Python compiled files
+__pycache__/
+*.pyc
+
+# Generated outputs
+outputs/
+
+# Keep prompts directory but ignore temporary files
+prompts/**/*.tmp
+prompts/**/*.bak
+
+# macOS specific files
+.DS_Store
+
+# VS Code specific files
+.vscode/
+
+# Log files
+*.log
+
+# OS-specific files
+Thumbs.db  # Windows thumbnail cache
+ehthumbs.db # Windows media thumbnail cache
+Desktop.ini # Windows desktop configuration files
